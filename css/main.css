@@ -1,0 +1,7 @@
+@import url("./settings/fontiran.css");
+@import url("./settings/settings.css");
+@import url("./desktop/main-desktop.css");
+
+div.wrapper {
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+@import url("./header-top/adservic.css");
+@import url("./header-middle.css");
+@import url("./header-bottom/main-header-bottom.css");
+div.main-header {
+  padding-right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: var(--color-neutral-000);
+  width: 100%;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 168px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.14), 0 2px 0 rgba(0, 0, 0, 0.05);
+}
+div.main-header > header {
+  width: 100%;
+  height: 168px;
+  background-color: var(--color-neutral-000);
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
