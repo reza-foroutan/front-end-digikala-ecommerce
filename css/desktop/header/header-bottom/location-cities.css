@@ -1,29 +1,9 @@
-div.location-cities {
+div.location {
   width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
   height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-div.location-cities > div.cities {
-  width: 100%;
-  height: inherit;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  color: var(--color-neutral-700);
-  cursor: pointer;
-  font-size: 12px;
-  font-weight: 400;
-}
-div.location-cities > div.cities > div > span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: 5px;
-}
-div.location-cities > div.cities > div > span > svg {
-  width: 20px;
-  height: 20px;
-  fill: var(--color-icon-high-emphasis);
+  column-gap: 50px;
+  background-color: forestgreen;
 }
