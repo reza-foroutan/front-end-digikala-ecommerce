@@ -1,0 +1,40 @@
+div.slider {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  background-color: firebrick;
+}
+.slider__wrapper {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+div.slider__wrapper__items {
+  width: 100% !important;
+  height: 400px;
+}
+div.slider__wrapper__items > div {
+  width: 100% !important;
+  height: 400px;
+}
+div.slider__wrapper__items > div > a {
+  display: block;
+  width: 100%;
+  height: inherit;
+}
+div.slider__wrapper__items > div > a > div {
+  width: 100%;
+  height: inherit;
+  position: relative;
+}
+div.slider__wrapper__items > div > a > div picture {
+  position: relative;
+}
+div.slider__wrapper__items > div > a > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}

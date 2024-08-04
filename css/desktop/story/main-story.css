@@ -1,0 +1,98 @@
+.story-slider {
+  width: 100%;
+  height: 156px;
+  margin: 180px 0;
+  margin-bottom: 30px;
+}
+div.story__slider__wrapper {
+  width: 82%;
+  height: inherit;
+  margin: 0 auto;
+}
+div.story__slider__wrapper > div {
+  padding-top: 16px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.story__slider__items {
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 0;
+}
+div.story__slider__items > div > div:nth-of-type(1) {
+  background: linear-gradient(315deg, #e03d96, #7d4c9e);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+div.story__slider__items > div > div:nth-of-type(1) > div {
+  width: calc(100% - 4px);
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  background-color: var(--color-white);
+}
+div.story__slider__items > div > div:nth-of-type(1) > div > div {
+  border-radius: 99999px;
+  line-height: 0;
+  background: linear-gradient(315deg, #e03d96, #7d4c9e);
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+div.story__slider__items > div > div:nth-of-type(1) > div > div > img {
+  object-fit: cover;
+  border-radius: 99999px;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+div.story__slider__items > div > div:nth-of-type(2) {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 2.17;
+  color: var(--color-neutral-800);
+  text-align: center;
+  margin-top: 8px;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  margin: -50px 0 !important;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 18px;
+  font-weight: 900;
+}
